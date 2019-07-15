@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>Be-bop-a-lula</work-title>
+  </work>
+  <movement-title>Be-bop-a-lula</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pa215702b90ca0d3ce1ca5a187bd41fe6">
-      <part-name />
+    <score-part id="P5003bb48b9a49e8c7c14c92edffd8225">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="I70d23be7e89aad2786c05774c7cec8c5">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="I70d23be7e89aad2786c05774c7cec8c5">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pa215702b90ca0d3ce1ca5a187bd41fe6">
+  <part id="P5003bb48b9a49e8c7c14c92edffd8225">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

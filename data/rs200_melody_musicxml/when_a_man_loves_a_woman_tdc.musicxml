@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>When A Man Loves A Woman</work-title>
+  </work>
+  <movement-title>When A Man Loves A Woman</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P2b4674f4d0370359445f1d039f6fde2a">
-      <part-name />
+    <score-part id="P6658073bec65868feb523b98a685f5f6">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="Ia024ab70d8c7001b0328121c6ad218f9">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="Ia024ab70d8c7001b0328121c6ad218f9">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P2b4674f4d0370359445f1d039f6fde2a">
+  <part id="P6658073bec65868feb523b98a685f5f6">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

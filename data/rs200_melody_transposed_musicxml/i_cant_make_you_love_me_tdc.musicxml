@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>I Cant Make You Love Me</work-title>
+  </work>
+  <movement-title>I Cant Make You Love Me</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P9e9fa9cb19b9c3d0292a0b1e71a34026">
-      <part-name />
+    <score-part id="P77db0cd36ae96d392b745ff8eb2cab7b">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="I8323cf0cf875e08743e0c29b740620a5">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="I8323cf0cf875e08743e0c29b740620a5">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P9e9fa9cb19b9c3d0292a0b1e71a34026">
+  <part id="P77db0cd36ae96d392b745ff8eb2cab7b">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>I Cant Stop Loving You</work-title>
+  </work>
+  <movement-title>I Cant Stop Loving You</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P901c12685b21a84f68d407cd7a5962bc">
-      <part-name />
+    <score-part id="P6bc36bd671033903b0982da8ba58e641">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="If85da5bd4fd086ef59ee45166fe9f9ea">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="If85da5bd4fd086ef59ee45166fe9f9ea">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P901c12685b21a84f68d407cd7a5962bc">
+  <part id="P6bc36bd671033903b0982da8ba58e641">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

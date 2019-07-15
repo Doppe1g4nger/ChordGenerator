@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>Ring Of Fire</work-title>
+  </work>
+  <movement-title>Ring Of Fire</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pac1bd095a68ab6d5eb733331de9f37c2">
-      <part-name />
+    <score-part id="P1e5e1d5a320ad86868ebff91e1c437f6">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="I97b367058e3a114d0c990b3c0021dc63">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="I97b367058e3a114d0c990b3c0021dc63">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pac1bd095a68ab6d5eb733331de9f37c2">
+  <part id="P1e5e1d5a320ad86868ebff91e1c437f6">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

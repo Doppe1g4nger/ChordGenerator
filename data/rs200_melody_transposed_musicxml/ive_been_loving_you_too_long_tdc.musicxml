@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>Ive Been Loving You Too Long</work-title>
+  </work>
+  <movement-title>Ive Been Loving You Too Long</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P16006893dc2a53b3ee58190f71eb094a">
-      <part-name />
+    <score-part id="P74fca4f0f3874beaca986ba2f04767a5">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="Icfca1d7a21eb039fefe8d7146f6c478d">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="Icfca1d7a21eb039fefe8d7146f6c478d">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P16006893dc2a53b3ee58190f71eb094a">
+  <part id="P74fca4f0f3874beaca986ba2f04767a5">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

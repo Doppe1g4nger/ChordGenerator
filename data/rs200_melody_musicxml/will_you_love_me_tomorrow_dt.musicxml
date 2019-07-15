@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>Will You Love Me Tomorrow</work-title>
+  </work>
+  <movement-title>Will You Love Me Tomorrow</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pa378bec317c0a3f4856d6cb765428f03">
-      <part-name />
+    <score-part id="P588469dbf687aa0d4fa55ce76d2f901d">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="If7f1d09c15d5296f658fe39ae32c05ed">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="If7f1d09c15d5296f658fe39ae32c05ed">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pa378bec317c0a3f4856d6cb765428f03">
+  <part id="P588469dbf687aa0d4fa55ce76d2f901d">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

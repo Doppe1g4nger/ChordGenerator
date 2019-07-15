@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>I Saw Her Standing There</work-title>
+  </work>
+  <movement-title>I Saw Her Standing There</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P88b72cb8ebef5660ccfb6fe4399306fb">
-      <part-name />
+    <score-part id="P6f14d670aef69168a2183cd90e01f5a1">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="I748ddc5c789f5ad63b68a87a5faac2f0">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="I748ddc5c789f5ad63b68a87a5faac2f0">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P88b72cb8ebef5660ccfb6fe4399306fb">
+  <part id="P6f14d670aef69168a2183cd90e01f5a1">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

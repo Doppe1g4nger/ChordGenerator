@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>Fake Plastic Trees</work-title>
+  </work>
+  <movement-title>Fake Plastic Trees</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pda003b3ac33f0008aebfa632e23c5c99">
-      <part-name />
+    <score-part id="Pbe3c5d161564554126c471bea83bcbc9">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="Iee50ba3f2dfd0c3ce15097813a1f693f">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="Iee50ba3f2dfd0c3ce15097813a1f693f">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pda003b3ac33f0008aebfa632e23c5c99">
+  <part id="Pbe3c5d161564554126c471bea83bcbc9">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

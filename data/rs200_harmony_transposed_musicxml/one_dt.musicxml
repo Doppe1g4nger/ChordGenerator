@@ -8,7 +8,7 @@
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-06-24</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -19,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pbe7eabe0ea41ad7bf702c3bed4240c2a">
-      <part-name />
+    <score-part id="Pc07af711d30cd4e3dc04a28cf2cdc556">
+      <part-name>Piano</part-name>
+      <part-abbreviation>Pno</part-abbreviation>
+      <score-instrument id="I6ead94f461d57e136956f4f130eb18cb">
+        <instrument-name>Piano</instrument-name>
+        <instrument-abbreviation>Pno</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="I6ead94f461d57e136956f4f130eb18cb">
+        <midi-channel>3</midi-channel>
+        <midi-program>1</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pbe7eabe0ea41ad7bf702c3bed4240c2a">
+  <part id="Pc07af711d30cd4e3dc04a28cf2cdc556">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>

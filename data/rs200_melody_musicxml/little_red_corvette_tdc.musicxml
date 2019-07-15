@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
-  <movement-title>Music21 Fragment</movement-title>
+  <work>
+    <work-title>Little Red Corvette</work-title>
+  </work>
+  <movement-title>Little Red Corvette</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
-      <encoding-date>2019-07-11</encoding-date>
+      <encoding-date>2019-07-12</encoding-date>
       <software>music21 v.5.7.0</software>
     </encoding>
   </identification>
@@ -16,12 +19,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P0bcdb3b7875167c9d63f0bf4d8905a18">
-      <part-name />
+    <score-part id="P65559b3ce232e1523c922b1d2e929c6c">
+      <part-name>Violin</part-name>
+      <part-abbreviation>Vln</part-abbreviation>
+      <score-instrument id="If77fd4c37a58c90fd235c60978ad1656">
+        <instrument-name>Violin</instrument-name>
+        <instrument-abbreviation>Vln</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="If77fd4c37a58c90fd235c60978ad1656">
+        <midi-channel>2</midi-channel>
+        <midi-program>41</midi-program>
+      </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="P0bcdb3b7875167c9d63f0bf4d8905a18">
+  <part id="P65559b3ce232e1523c922b1d2e929c6c">
     <!--========================= Measure 0 ==========================-->
     <measure number="0">
       <attributes>
