@@ -1,0 +1,41 @@
+model0:
+
+model0 is a standard feedforward neural network taking 3 measures of melody (measure_i-1,measure_i,measure_i+1) and predicting 1 measure of chords.
+The model is trained on the full rs_200 dataset converted from .mel files treating all dots as rests and using the dt version of chords. All constituent parts were transposed to C with no further augmentation, songs with no melody and leading/trailing empty measures were not stripped and the data was not made key invariant. The model is defined with the ConditionedFeedforward class definition. The model training was performed over 250 epochs using weightings for each positive instance input variable defined as total_negative_examples / total_positive_examples. The model criterion was BinaryCrossentropyWithLogits using SGD with momentum 0.9 and lr 0.001. The training data for this model was deleted, but can be reconstructed using the scripts available and the description above.
+
+Input dim: (48 * 13) where each dimensionality 13 vector is 1-hot where index 0-11 is pitch class with a dot symbol (both rest and hold) as the last index.
+
+Output dim: (16 * 12) where each dim 12 vector should be passed through independent sigmoid functions and use a threshold value/top n predictions scheme to predict notes. For good sounding results merge identical and adjacent time step predictions into one longer chord.
+
+#######################################################################################################################################################
+
+model2:
+
+model2 is a standard feedforward neural network taking 3 measures of melody (measure_i-1,measure_i,measure_i+1) and predicting 1 measure of chords.
+The model is trained on the full rs_200 dataset converted from .mel files treating all dots following notes as holds and using the dt version of chords. Songs were not transposed prior to data generation but were transposed to all alternative keys as well as the original key during data loading to encourage key invariance. Songs with no melody were removed and leading/trailing empty measures stripped. The model is defined with the ConditionedFeedforward class definition. The model training was performed over 250 epochs using weightings for each positive instance input variable defined as total_negative_examples / total_positive_examples. The model criterion was BinaryCrossentropyWithLogits using SGD with momentum 0.9 and lr 0.001. The training data for this model is available as rs200_training_dt_longnotes.
+
+Input dim: (48 * 13) where each dimensionality 13 vector is 1-hot where index 0-11 is pitch class with a dot symbol (specifically rest) as the last index.
+
+Output dim: (16 * 12) where each dim 12 vector should be passed through independent sigmoid functions and use a threshold value/top n predictions scheme to predict notes. For good sounding results merge identical and adjacent time step predictions into one longer chord.
+
+#######################################################################################################################################################
+
+model1:
+
+model1 is an LSTM based model taking 1 time step of melody and predicting the corresponding time step of chords.
+The model is trained on the full rs_200 dataset converted from .mel files treating all dots as rests and using the dt version of chords. All constituent parts were transposed to C with no further augmentation, songs with no melody and leading/trailing empty measures were not stripped and the data was not made key invariant. The model is defined with the LSTMGenerator class definition. The model training was performed over 5 epochs using weightings for each positive instance input variable defined as total_negative_examples / total_positive_examples. The model criterion was BinaryCrossentropyWithLogits using SGD with momentum 0.9 and lr 0.001. The training data for this model was deleted, but can be reconstructed using the scripts available and the description above.
+
+Input dim: (seq_length * 1) where each value is an index 0-11 for pitch class and 12 for a dot symbol (both rest and hold) as the last index.
+
+Output dim: (seq_length * 12) where each dim 12 vector should be passed through independent sigmoid functions and use a threshold value/top n predictions scheme to predict notes. For good sounding results merge identical and adjacent time step predictions into one longer chord.
+
+#######################################################################################################################################################
+
+model3:
+
+model3 is an LSTM based model taking 1 time step of melody and predicting the corresponding time step of harmony.
+The model is trained on the full rs_200 dataset converted from .mel files treating all dots following notes as holds and using the dt version of chords. Songs were not transposed prior to data generation but were transposed to all alternative keys as well as the original key during data loading. Songs with no melody were removed and leading/trailing empty measures stripped. The model is defined with the LSTMGenerator class definition. The model training was performed over 5 epochs using weightings for each positive instance input variable defined as total_negative_examples / total_positive_examples. The model criterion was BinaryCrossentropyWithLogits using SGD with momentum 0.9 and lr 0.001. The training data for this model is available as rs200_training_dt_longnotes.
+
+Input dim: (seq_length * 1) where each value is an index 0-11 for pitch class and 12 for a dot symbol (both rest and hold) as the last index.
+
+Output dim: (seq_length * 12) where each dim 12 vector should be passed through independent sigmoid functions and use a threshold value/top n predictions scheme to predict notes. For good sounding results merge identical and adjacent time step predictions into one longer chord.
